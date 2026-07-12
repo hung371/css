@@ -3,40 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Chủ - HW2</title>
+    <title>Khám Phá Thiên Nhiên - Trang Chủ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#main-content">Skip to Main Content</a>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
 
     <header>
-        <h1>Trang Chủ - Bố cục Grid</h1>
+        <h1>Chào Mừng Đến Với Thiên Nhiên Hùng Vĩ</h1>
     </header>
 
-    <div style="text-align: center; background-color: #e2e2e2;">
-        <nav>
-            <img src="https://via.placeholder.com/100/ffffff/000000?text=Logo" alt="Logo trang web">
-            <ul>
-                <li><a href="index.html">Trang Chủ (Grid)</a></li>
-                <li><a href="page2.html">Công Viên (Flex)</a></li>
-                <li><a href="page3.html">Liên Hệ</a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang Chủ (Grid)</a></li>
+            <li><a href="gallery.html">Bộ Sưu Tập (5 Ảnh)</a></li>
+            <li><a href="contact.html">Liên Hệ</a></li>
+        </ul>
+    </nav>
 
     <main id="main-content">
-        <p>Đây là khu vực hiển thị bố cục sử dụng class <b>.grid</b>. Hình ảnh ở dưới đã được cấu hình width: 100% để lấp đầy các cột 40%.</p>
-        
-        <div class="grid">
-            <img src="https://via.placeholder.com/600x400/ff7f50/333333?text=Grid+Anh+1" alt="Ảnh Grid 1">
-            <img src="https://via.placeholder.com/600x400/6495ed/333333?text=Grid+Anh+2" alt="Ảnh Grid 2">
-            <img src="https://via.placeholder.com/600x400/3cb371/333333?text=Grid+Anh+3" alt="Ảnh Grid 3">
-            <img src="https://via.placeholder.com/600x400/ffd700/333333?text=Grid+Anh+4" alt="Ảnh Grid 4">
-        </div>
+        <section class="grid-container">
+            <div>
+                <h2>Khám phá vẻ đẹp bất tận</h2>
+                <p>Trang web này giới thiệu những cảnh quan thiên nhiên tuyệt đẹp từ khắp nơi trên thế giới. Chúng tôi áp dụng chuẩn HTML5 và CSS3 hiện đại với bố cục Grid và Flexbox.</p>
+                <p>Hãy bấm sang trang <b>Bộ Sưu Tập</b> để trải nghiệm hiệu ứng chuyển động khi di chuột (hover) và phong cách bo góc độc đáo được tạo ra bởi bộ chọn <code>:nth-child</code>.</p>
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/1018/600/400" alt="Khung cảnh núi non hùng vĩ dưới ánh nắng chiều">
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>Bản quyền © 2026. Bài tập HW2.</p>
+        <p>Bản quyền © 2026. Bài tập Thiết kế Web HW3.</p>
     </footer>
 </body>
 </html>
