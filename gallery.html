@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám Phá Thiên Nhiên - Bộ Sưu Tập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header>
+        <h1>Bộ Sưu Tập Cảnh Quan (Flexbox & nth-child)</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang Chủ (Grid)</a></li>
+            <li><a href="gallery.html">Bộ Sưu Tập (5 Ảnh)</a></li>
+            <li><a href="contact.html">Liên Hệ</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <p>Dưới đây là 5 hình ảnh minh họa. Nhờ bộ chọn <b>:nth-child(even)</b> trong CSS, các hình ảnh ở vị trí chẵn (số 2 và số 4) sẽ có viền màu đỏ và kiểu bo góc chéo khác biệt với các ảnh ở vị trí lẻ!</p>
+        
+        <div class="flex-container">
+            <figure>
+                <img src="https://picsum.photos/id/1015/400/300" alt="Thung lũng sông uốn lượn qua dãy núi">
+                <figcaption>1. Thung Lũng Sông</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://picsum.photos/id/1016/400/300" alt="Hẻm núi đá hùng vĩ sa mạc">
+                <figcaption>2. Hẻm Núi Đá (Ảnh Chẵn)</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://picsum.photos/id/1019/400/300" alt="Bờ biển hoàng hôn với sóng vỗ">
+                <figcaption>3. Bờ Biển Hoàng Hôn</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://picsum.photos/id/1022/400/300" alt="Bầu trời đêm đầy sao trên thảo nguyên">
+                <figcaption>4. Bầu Trời Đêm (Ảnh Chẵn)</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://picsum.photos/id/1039/400/300" alt="Thác nước chảy qua rừng cây xanh mát">
+                <figcaption>5. Thác Nước Trong Rừng</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>Bản quyền © 2026. Bài tập Thiết kế Web HW3.</p>
+    </footer>
+</body>
+</html>
